@@ -37,7 +37,9 @@
           // }
           function formSuccess(result) {
               console.log(result);
-              $('.superphone-widget widget-landing').hide();
+              var x = document.getElementById("superphone-widget-wrapper");
+              x.style.display = "none";
+              //$('.superphone-widget widget-landing').hide();
               $('.form-success').show();
               }
         </script>
