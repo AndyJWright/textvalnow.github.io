@@ -35,7 +35,11 @@
           // function formError(xhr, textStatus) {
           //   // Custom code Form error
           // }
-          function formSuccess(result) {console.log(result)}
+          function formSuccess(result) {
+              console.log(result);
+              $('.superphone-widget-wrapper').hide();
+              //$('.form-success').show();
+              }
         </script>
 
         <style>
